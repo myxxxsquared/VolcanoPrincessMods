@@ -14,6 +14,7 @@ namespace VolcanoPrincessMods
             ModLogger.LogInfo("I am running!");
             harmony = new Harmony("com.github.myxxxsquared.vpm");
             harmony.PatchAll();
+            ModLogger.LogInfo("Harmony Patched!");
         }
 
         public static ManualLogSource ModLogger { get; private set; }
